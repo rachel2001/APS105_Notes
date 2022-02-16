@@ -261,7 +261,7 @@ int main(void){
 write NULL is instead of writting 0
 ```
 
-```
+```ruby
 void read(int *marks, const int size){
     for(int *p = marks; i < size; p++, i++){
         scanf("%d",&p);
