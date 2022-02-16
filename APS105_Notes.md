@@ -18,7 +18,7 @@
 ## Jan.26
 
 Example 1: Decision
-```javascript{.line-numbers}
+```ruby
 //  Travel advisory
 //
 // The purpose of this program is to help make a decision to issue
