@@ -10,6 +10,7 @@
   - [Feb.8](#feb8)
       - [Test Goldbach Conjecture](#test-goldbach-conjecture)
   - [Feb.14](#feb14)
+  - [Feb.16](#feb16)
 
 <!-- /code_chunk_output -->
 
@@ -267,4 +268,21 @@ void read(int *marks, const int size){
         scanf("%d",&p);
     }
 }
+```
+
+## Feb.16
+
+```ruby
+int main(void){
+  int marks[] = {1,2,3,4,5};
+  swap(marks,1,2);
+
+}
+
+void swap(int *marks, int i, int j){
+  int temp = marks[i];
+  marks[i] = marks[j];
+  marks[j] = temp;
+}
+
 ```
