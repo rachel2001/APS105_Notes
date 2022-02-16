@@ -68,7 +68,7 @@ int main(void) {
 ## Jan.28
 
 Example 1:
-```javascript{.line-numbers}
+```ruby
 #include <stdbool.h>
 #include <stdio.h>
 
@@ -110,7 +110,7 @@ int main(void) {
 
 Example 1:
 
-```javascript{.line-numbers}
+```ruby
 #include<stdio.h>
 int main(){
 int *p;     //1. Declaring
@@ -123,7 +123,7 @@ printf("%d", x)
 
 Example 2:
 
-```javascript{.line-numbers}
+```ruby
 void swap(int * x, int * y)
 
 int main(void){
@@ -149,7 +149,7 @@ void * p{
 
 NULL: null pointer is a constant
 
-```javascript{.line-numbers}
+```ruby
 #include<stdio.h>
 int *largerLoc(int *x, int *y){
     if(*x >= *y){
@@ -172,7 +172,7 @@ int main(void){
 
 Functions: Scope of variables
 
-```javascript{.line-numbers}
+```ruby
 int func(int x, int y){
     int i = 1;
     for(int i = 0;;i++){
@@ -184,7 +184,7 @@ printf("%d,i);
 
 Global Varables
 
-```javascript{.line-numbers}
+```ruby
 external int global;
 int main(void){
     global = 2;
@@ -200,7 +200,7 @@ code
 
 #### Test Goldbach Conjecture
 
-```javascript{.line-numbers}
+```ruby
 int main(void){
     do{
         printf("Enter a number:");
@@ -212,7 +212,7 @@ int main(void){
 
 Bitwise Operator
 
-```javascript{.line-numbers}
+```ruby
 
 // C Program to demonstrate use of bitwise operators
 #include <stdio.h>
@@ -247,7 +247,7 @@ int main()
 
 ## Feb.14
 
-```javascript{.line-numbers}
+```ruby
 int marks[] = {1,2,3,4,5};
 void read(int marks[], const int size){
     for(int i = 0; i < size; i++){
