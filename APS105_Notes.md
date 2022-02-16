@@ -18,20 +18,18 @@
 ## Jan.26
 
 Example 1: Decision
+
+Travel advisory
+The purpose of this program is to help make a decision to issue an emergency advisory by the World Health Organization
+by consulting three experts, and seeing what their average confidence is.
+
+The input is the level of confidence expressed by three experts in fractions between 0 and 1.
+
+The output of the program is a Go/No Go decision based on the
+average of the three confidence levels. If the average is greater
+than or equal to 70% it is a go.
+
 ```ruby
-//  Travel advisory
-//
-// The purpose of this program is to help make a decision to issue
-// an emergency advisory by the World Health Organization
-// by consulting three experts, and seeing what their average confidence is.
-
-// The input is the level of confidence expressed by three experts
-// in fractions between 0 and 1.
-
-// The output of the program is a Go/No Go decision based on the
-// average of the three confidence levels.  If the average is greater
-// than or equal to 70% it is a go.
-
 #include <math.h>
 #include <stdio.h>
 
@@ -68,13 +66,13 @@ int main(void) {
 ## Jan.28
 
 Example 1:
+
+This program demonstrates how a boolean variable, 'done', can be used to exit
+the loop. Do not use 'break' for better coding style, readability, and
+robustness.
 ```ruby
 #include <stdbool.h>
 #include <stdio.h>
-
-// This program demonstrates how a boolean variable, 'done', can be used to exit
-// the loop. Do not use 'break' for better coding style, readability, and
-// robustness.
 
 int main(void) {
   bool done = false;
@@ -269,3 +267,4 @@ void read(int *marks, const int size){
         scanf("%d",&p);
     }
 }
+```
